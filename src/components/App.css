@@ -1,0 +1,36 @@
+/* Styles go here */
+
+.token {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.background{
+  background-image: url(../Landscape2.jpg);
+  padding: 0px 0 0px 0;
+  height: 100vh;
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  background: url(../Landscape2.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+}
+
+.LeftText{
+  padding: 50px 0 50px 0;
+  color: red;
+  text-align: left;
+}
+
+.RightText{
+  padding: 50px 0 50px 0;
+  color: red;
+  text-align: Right;
+}
