@@ -134,8 +134,9 @@ async loadBlockchainData() {
           </div>
       </div>
 
+          
           <div class="row py-5">
-          <div class="col-sm bg-white border border-dark border-3 rounded-pill">
+          <div class="col-sm bg-white shadow-lg rounded-pill ">
           <figure class="text-center">
           <img src={DogeVilleLogo} width="100" height="100" className="d-inline-block align-top" alt="" />
           <h4><span id="result">&nbsp;{this.state.totalHolders.toString()}</span></h4>
@@ -148,7 +149,7 @@ async loadBlockchainData() {
         <figure class="text-center">
         </figure>  
         </div>
-        <div class="col-sm bg-white border border-dark border-3 rounded-pill">
+        <div class="col-sm bg-white shadow-lg rounded-pill">
           <figure class="text-center">
           <img src={DogeVilleLogo} width="100" height="100" className="d-inline-block align-top" alt="" />
           <h4><span id="result">&nbsp;{this.state.balanceOf.toString()}</span></h4>
@@ -159,7 +160,7 @@ async loadBlockchainData() {
       </div>
 
   <div class="row py-5">
-  <div class="col-sm bg-white border border-dark border-1 border rounded-pill">
+  <div class="col-sm bg-white shadow-lg rounded-pill">
     <figure class="text-center">
     <img src={DollarLogo} width="100" height="100" className="d-inline-block align-top" alt="" />
       <h4><span id="result">&nbsp;{this.state.totalDividendsDistributed.toString()}</span></h4>
@@ -171,7 +172,7 @@ async loadBlockchainData() {
       
     </figure>  
     </div>
-    <div class="col-sm bg-white border border-dark border-1 border rounded-pill">
+    <div class="col-sm bg-white shadow-lg rounded-pill">
     <figure class="text-center">
     <img src={DollarLogo} width="100" height="100" className="d-inline-block align-top" alt="" />
       <h4><span id="result">&nbsp;{this.state.accountTotalDividendsReceived.toString()}</span></h4>
@@ -191,7 +192,7 @@ async loadBlockchainData() {
       
     </figure>  
     </div>
-    <div class="col-sm bg-white border border-dark border-1 border rounded-pill">
+    <div class="col-sm bg-white shadow-lg rounded-pill">
     <figure class="text-center">
     <img src={DollarLogo} width="100" height="100" className="d-inline-block align-top" alt="" />
       <h4><span id="result">&nbsp;{this.state.accountNextPayout.toString()}</span></h4>
