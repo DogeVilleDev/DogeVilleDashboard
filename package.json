@@ -24,7 +24,7 @@
     "web3": "1.0.0-beta.55",
     "web3-utils": "^1.6.1"
   },
-  "homepage": "http://dashboard.dogeville.dev",        
+  "homepage": "http://dogeville.nl",        
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
