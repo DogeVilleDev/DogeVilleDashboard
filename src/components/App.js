@@ -140,7 +140,7 @@ async loadBlockchainData() {
           <figure class="text-center">
           <img src={DogeVilleLogo} width="100" height="100" className="d-inline-block align-top" alt="" />
           <h4><span id="result">&nbsp;{this.state.totalHolders.toString()}</span></h4>
-          <h3><strong>Token holders</strong></h3>
+          <h3><strong>Token holders test</strong></h3>
           <h1> </h1>
           </figure>
           </div>
