@@ -164,7 +164,7 @@ async loadBlockchainData() {
     <figure class="text-center">
     <img src={DollarLogo} width="100" height="100" className="d-inline-block align-top" alt="" />
       <h4><span id="result">&nbsp;{this.state.totalDividendsDistributed.toString()}</span></h4>
-      <h3><strong>Total dividens distributed</strong></h3>
+      <h3><strong>Total dividends distributed</strong></h3>
     </figure>
       </div>
     <div class="col-sm">
